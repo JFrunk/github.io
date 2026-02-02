@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bridge Bidding Lessons - Learn 15+ Conventions | My Bridge Buddy</title>
+  <meta name="description" content="Free bridge bidding lessons covering 15+ conventions from Essential to Advanced. Learn Stayman, Blackwood, Jacoby Transfers, and more with step-by-step guides and practice hands." />
+  <link rel="canonical" href="https://mybridgebuddy.com/lessons/" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bridge Bidding Lessons - 15+ Conventions Explained" />
+  <meta property="og:description" content="Free bridge bidding lessons from Essential to Advanced. Step-by-step guides with example hands." />
+  <meta property="og:image" content="https://mybridgebuddy.com/og-image.png" />
+  <meta property="og:url" content="https://mybridgebuddy.com/lessons/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="My Bridge Buddy" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bridge Bidding Lessons - 15+ Conventions Explained" />
+  <meta name="twitter:description" content="Free bridge bidding lessons from Essential to Advanced. Step-by-step guides with example hands." />
+  <meta name="twitter:image" content="https://mybridgebuddy.com/og-image.png" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Bridge Bidding Lessons",
+    "description": "A comprehensive collection of bridge bidding convention lessons, from essential beginner conventions to advanced tournament techniques.",
+    "url": "https://mybridgebuddy.com/lessons/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "My Bridge Buddy",
+      "url": "https://mybridgebuddy.com"
+    },
+    "about": {
+      "@type": "Game",
+      "name": "Contract Bridge"
+    },
+    "hasPart": [
+      { "@type": "HowTo", "name": "Stayman Convention", "url": "https://mybridgebuddy.com/lessons/stayman/" },
+      { "@type": "HowTo", "name": "Jacoby Transfers", "url": "https://mybridgebuddy.com/lessons/jacoby-transfers/" },
+      { "@type": "HowTo", "name": "Weak Two Bids", "url": "https://mybridgebuddy.com/lessons/weak-two-bids/" },
+      { "@type": "HowTo", "name": "Takeout Doubles", "url": "https://mybridgebuddy.com/lessons/takeout-doubles/" },
+      { "@type": "HowTo", "name": "Blackwood (4NT)", "url": "https://mybridgebuddy.com/lessons/blackwood/" },
+      { "@type": "HowTo", "name": "Negative Doubles", "url": "https://mybridgebuddy.com/lessons/negative-doubles/" },
+      { "@type": "HowTo", "name": "Michaels Cuebid", "url": "https://mybridgebuddy.com/lessons/michaels-cuebid/" },
+      { "@type": "HowTo", "name": "Unusual 2NT", "url": "https://mybridgebuddy.com/lessons/unusual-2nt/" },
+      { "@type": "HowTo", "name": "Strong 2 Club Opening", "url": "https://mybridgebuddy.com/lessons/strong-two-clubs/" },
+      { "@type": "HowTo", "name": "Fourth Suit Forcing", "url": "https://mybridgebuddy.com/lessons/fourth-suit-forcing/" },
+      { "@type": "HowTo", "name": "Splinter Bids", "url": "https://mybridgebuddy.com/lessons/splinter-bids/" },
+      { "@type": "HowTo", "name": "New Minor Forcing", "url": "https://mybridgebuddy.com/lessons/new-minor-forcing/" },
+      { "@type": "HowTo", "name": "Responsive Doubles", "url": "https://mybridgebuddy.com/lessons/responsive-doubles/" },
+      { "@type": "HowTo", "name": "Lebensohl", "url": "https://mybridgebuddy.com/lessons/lebensohl/" },
+      { "@type": "HowTo", "name": "Gerber (4 Clubs)", "url": "https://mybridgebuddy.com/lessons/gerber/" }
+    ]
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      color: #2d3748;
+      line-height: 1.7;
+      background: #f7fafc;
+    }
+    nav {
+      background: #1a365d;
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav .nav-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a { color: #bee3f8; text-decoration: none; font-size: 14px; }
+    nav a:hover { color: #fff; }
+    nav .brand { font-size: 18px; font-weight: 600; color: #fff; }
+    .breadcrumbs {
+      max-width: 960px;
+      margin: 16px auto 0;
+      padding: 0 24px;
+      font-size: 13px;
+      color: #718096;
+    }
+    .breadcrumbs a { color: #4299e1; text-decoration: none; }
+    .breadcrumbs a:hover { text-decoration: underline; }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 24px 80px;
+    }
+    h1 {
+      font-size: 36px;
+      color: #1a365d;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    .intro {
+      font-size: 18px;
+      color: #4a5568;
+      margin-bottom: 40px;
+      max-width: 700px;
+    }
+    .level-section { margin-bottom: 48px; }
+    .level-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .level-header h2 {
+      font-size: 24px;
+      color: #2d3748;
+      margin: 0;
+    }
+    .level-badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #fff;
+    }
+    .badge-essential { background: #48bb78; }
+    .badge-intermediate { background: #ed8936; }
+    .badge-advanced { background: #805ad5; }
+
+    .lesson-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .lesson-card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 24px;
+      text-decoration: none;
+      color: #2d3748;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .lesson-card:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+    .lesson-card h3 {
+      font-size: 20px;
+      color: #2c5282;
+      margin-bottom: 8px;
+    }
+    .lesson-card .description {
+      font-size: 15px;
+      color: #4a5568;
+      flex-grow: 1;
+      margin-bottom: 12px;
+    }
+    .lesson-card .meta {
+      font-size: 13px;
+      color: #a0aec0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 12px;
+      border-top: 1px solid #edf2f7;
+    }
+    .lesson-card .arrow {
+      color: #4299e1;
+      font-weight: 600;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #2c5282, #2b6cb0);
+      color: #fff;
+      border-radius: 12px;
+      padding: 32px;
+      margin: 48px 0;
+      text-align: center;
+    }
+    .cta-box h2 { color: #fff; margin: 0 0 12px; font-size: 24px; }
+    .cta-box p { color: #bee3f8; margin-bottom: 20px; }
+    .cta-button {
+      display: inline-block;
+      background: #fff;
+      color: #2c5282;
+      padding: 14px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      transition: transform 0.2s;
+    }
+    .cta-button:hover { transform: translateY(-2px); }
+
+    footer {
+      background: #1a365d;
+      color: #a0aec0;
+      text-align: center;
+      padding: 24px;
+      font-size: 14px;
+    }
+    footer a { color: #90cdf4; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="brand">My Bridge Buddy</a>
+    <div>
+      <a href="/lessons/">All Lessons</a>
+      &nbsp;&nbsp;
+      <a href="https://app.mybridgebuddy.com">Practice Now</a>
+    </div>
+  </div>
+</nav>
+
+<div class="breadcrumbs">
+  <a href="/">Home</a> &rsaquo; Lessons
+</div>
+
+<main>
+  <h1>Bridge Bidding Lessons</h1>
+  <p class="intro">
+    Learn contract bridge bidding conventions step by step, from essential fundamentals to advanced
+    tournament techniques. Each lesson includes bidding sequences, example hands, and common mistakes
+    to avoid.
+  </p>
+
+  <!-- Essential -->
+  <div class="level-section">
+    <div class="level-header">
+      <span class="level-badge badge-essential">Essential</span>
+      <h2>Foundation Conventions</h2>
+    </div>
+    <p style="color:#4a5568; margin-bottom:16px;">
+      The conventions every bridge player should know. Start here if you're new to bridge bidding.
+    </p>
+    <div class="lesson-grid">
+      <a href="/lessons/stayman/" class="lesson-card">
+        <h3>Stayman Convention</h3>
+        <p class="description">After partner opens 1NT, bid 2&clubs; to find a 4-4 major suit fit. The most widely used convention in bridge.</p>
+        <div class="meta">
+          <span>After 1NT opening</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/jacoby-transfers/" class="lesson-card">
+        <h3>Jacoby Transfers</h3>
+        <p class="description">Show a 5-card major after partner's 1NT opening. Lets the strong hand be declarer and conceals its cards.</p>
+        <div class="meta">
+          <span>After 1NT opening</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/weak-two-bids/" class="lesson-card">
+        <h3>Weak Two Bids</h3>
+        <p class="description">Open 2&diams;, 2&hearts;, or 2&spades; with a 6-card suit and 5&ndash;10 HCP. Consume bidding space to obstruct opponents.</p>
+        <div class="meta">
+          <span>Preemptive opening</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/takeout-doubles/" class="lesson-card">
+        <h3>Takeout Doubles</h3>
+        <p class="description">Double an opponent's opening bid to show support for all unbid suits. The primary tool for entering the auction.</p>
+        <div class="meta">
+          <span>Competitive bidding</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Intermediate -->
+  <div class="level-section">
+    <div class="level-header">
+      <span class="level-badge badge-intermediate">Intermediate</span>
+      <h2>Expanding Your Toolkit</h2>
+    </div>
+    <p style="color:#4a5568; margin-bottom:16px;">
+      Build on the essentials with conventions for slam bidding, competitive auctions, and powerful hands.
+    </p>
+    <div class="lesson-grid">
+      <a href="/lessons/blackwood/" class="lesson-card">
+        <h3>Blackwood (4NT)</h3>
+        <p class="description">Ask partner how many aces they hold when your partnership is headed for slam. Prevent bidding slam missing two aces.</p>
+        <div class="meta">
+          <span>Slam bidding</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/negative-doubles/" class="lesson-card">
+        <h3>Negative Doubles</h3>
+        <p class="description">When partner opens and an opponent overcalls, double to show values and length in the unbid suits.</p>
+        <div class="meta">
+          <span>Competitive response</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/michaels-cuebid/" class="lesson-card">
+        <h3>Michaels Cuebid</h3>
+        <p class="description">Cuebid the opponent's suit to show a two-suited hand (5-5 or better) in one bid. Over minors, shows both majors.</p>
+        <div class="meta">
+          <span>Two-suited overcall</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/unusual-2nt/" class="lesson-card">
+        <h3>Unusual 2NT</h3>
+        <p class="description">Jump to 2NT over an opponent's opening to show 5-5 in the two lowest unbid suits (typically both minors).</p>
+        <div class="meta">
+          <span>Two-suited overcall</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/strong-two-clubs/" class="lesson-card">
+        <h3>Strong 2&clubs; Opening</h3>
+        <p class="description">The strongest opening bid in bridge. Shows 22+ HCP or a hand with 8.5+ playing tricks. Artificial and forcing.</p>
+        <div class="meta">
+          <span>Strong hand opening</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Advanced -->
+  <div class="level-section">
+    <div class="level-header">
+      <span class="level-badge badge-advanced">Advanced</span>
+      <h2>Tournament-Level Conventions</h2>
+    </div>
+    <p style="color:#4a5568; margin-bottom:16px;">
+      Sophisticated conventions used by experienced players and in duplicate bridge tournaments.
+    </p>
+    <div class="lesson-grid">
+      <a href="/lessons/fourth-suit-forcing/" class="lesson-card">
+        <h3>Fourth Suit Forcing</h3>
+        <p class="description">Bid the fourth suit artificially to create a game force when no natural bid describes your hand.</p>
+        <div class="meta">
+          <span>Constructive bidding</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/splinter-bids/" class="lesson-card">
+        <h3>Splinter Bids</h3>
+        <p class="description">A double-jump in a new suit showing trump support, shortness, and slam interest. Helps partner evaluate for slam.</p>
+        <div class="meta">
+          <span>Slam exploration</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/new-minor-forcing/" class="lesson-card">
+        <h3>New Minor Forcing</h3>
+        <p class="description">After opener rebids 1NT, bid the other minor artificially to find 3-card major support or the best game.</p>
+        <div class="meta">
+          <span>Constructive bidding</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/responsive-doubles/" class="lesson-card">
+        <h3>Responsive Doubles</h3>
+        <p class="description">After partner doubles and the opponent raises, your double shows values in the unbid suits without a clear suit to bid.</p>
+        <div class="meta">
+          <span>Competitive bidding</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/lebensohl/" class="lesson-card">
+        <h3>Lebensohl</h3>
+        <p class="description">Handle interference over partner's 1NT opening. Use 2NT as a relay to distinguish weak and strong hands.</p>
+        <div class="meta">
+          <span>Handling interference</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+      <a href="/lessons/gerber/" class="lesson-card">
+        <h3>Gerber (4&clubs;)</h3>
+        <p class="description">Ask for aces in notrump auctions where 4NT would be quantitative. The notrump counterpart to Blackwood.</p>
+        <div class="meta">
+          <span>Slam bidding</span>
+          <span class="arrow">Read &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="cta-box">
+    <h2>Practice Every Convention with AI Opponents</h2>
+    <p>Get dealt hands tailored to each convention and receive instant feedback on your bids.</p>
+    <a href="https://app.mybridgebuddy.com" class="cta-button">Start Practicing Free</a>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 My Bridge Buddy &nbsp;|&nbsp; <a href="/">Home</a> &nbsp;|&nbsp; <a href="/lessons/">All Lessons</a> &nbsp;|&nbsp; <a href="https://app.mybridgebuddy.com">Practice App</a></p>
+</footer>
+
+</body>
+</html>

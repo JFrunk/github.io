@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mybridgebuddy.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Essential Conventions -->
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/stayman/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/jacoby-transfers/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/weak-two-bids/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/takeout-doubles/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Intermediate Conventions -->
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/blackwood/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/negative-doubles/</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/michaels-cuebid/</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/unusual-2nt/</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/strong-two-clubs/</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Advanced Conventions -->
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/fourth-suit-forcing/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/splinter-bids/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/new-minor-forcing/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/responsive-doubles/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/lebensohl/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://mybridgebuddy.com/lessons/gerber/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
