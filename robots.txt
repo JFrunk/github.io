@@ -1,0 +1,7 @@
+# MyBridgeBuddy - mybridgebuddy.com
+# Public landing page: allow full indexing
+
+User-agent: *
+Allow: /
+
+Sitemap: https://mybridgebuddy.com/sitemap.xml
